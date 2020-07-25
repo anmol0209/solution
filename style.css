@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Recursive:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    margin: 5%;
+}
+
+.wrapper h1{
+    font-family: 'Recursive', sans-serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    text-align: left;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;    
+    
+}
+
+ .menu .menu_title{
+     background-color: darkgrey;
+     margin: 5px;
+     margin-bottom: 50px;
+     width: 350px;
+     padding: 20px;
+     border: 2px solid black;
+     line-height: 20px;
+     color: black ;
+     position: relative;
+     white-space: normal;
+ }
+
+ .menu .menu_title .title1 h3{
+  background-color: palevioletred;
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  right: 0px;
+  width: 120px;
+  margin-bottom: 20px;
+  border-left-style: solid;
+  border-bottom-style:  solid;
+  border-color: black;
+  border-width: 2px;
+ }
+
+ .menu .menu_title .title2 h3{
+    background-color:  red;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    width: 120px;
+    margin-bottom: 20px;
+    border-left-style: solid;
+    border-bottom-style:  solid;
+    border-color: black;
+    border-width: 2px;
+   }
+
+   .menu .menu_title .title3 h3{
+    background-color: coral;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    width: 120px;
+    margin-bottom: 20px;
+    border-left-style: solid;
+    border-bottom-style:  solid;
+    border-color: black;
+    border-width: 2px;
+   }
